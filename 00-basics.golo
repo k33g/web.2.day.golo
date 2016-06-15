@@ -29,7 +29,7 @@ function main = |args| {
 
   # |f, g| -> |x| -> f(g(x))
 
-  let compose2 = |f, g, h| {
+  let compose3 = |f, g, h| {
     return |x| {
       return f(g(h(x)))
     }

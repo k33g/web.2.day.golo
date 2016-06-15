@@ -56,8 +56,8 @@ function main = |args| {
       |month| -> 
         "Day:" + day + " Month:" + month
   )
-    : ap(checkDay(42))
-    : ap(checkMonth(42))
+    : ap(checkDay(1))
+    : ap(checkMonth(12))
     : cata(
       failureFn = |err| -> println(err),
       successFn = |value| -> println(value)
